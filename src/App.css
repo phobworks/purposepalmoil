@@ -1,0 +1,18 @@
+.backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  background: var(--green-color);
+  color: var(--milk-color);
+  border: none;
+  padding: 12px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999999999;
+}
+
+.backToTop:hover {
+  background: var(--light-green-color);
+}

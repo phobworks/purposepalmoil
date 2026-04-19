@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-color: #004703;
+  --light-green-color: #005f03;
+  --milk-color: #fcfce4;
+  --yellow-color: #ffd920;
+  --white-color: #ffffff;
+  --offred-color: #e45406;
+  --black-color: #000000;
+  --gray-color: #242424;
+  --off-white-color: #c1973e;
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+
+  --transition: all 500ms ease;
+  --box-shadow: 10px 10px 14px 1px rgba(00, 00, 00, 0.2);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+  height: 100%;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--gray-color);
+  line-height: 1.7;
+
+  min-height: 100vh;
+
+  background: linear-gradient(to bottom, #d9ffda, #c1f1c0, #a9e2a6, #92d48c, #7bc571);
+
+  background-size: 100% 300%;
+  animation: verticalFlow 10s ease infinite;
+}
+
+@keyframes verticalFlow {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+.container {
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+  color: var(--gray-color);
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--green-color);
+}
+h2 {
+  font-size: 3.5rem;
+  color: var(--green-color);
+}
+
+a {
+  color: var(--purple-color);
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.short__text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.whatsapp__float {
+  position: fixed;
+  bottom: 20%;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  font-size: 28px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.whatsapp__float:hover {
+  transform: scale(1.1);
+}
+
+/* @media (prefers-reduced-motion: reduce) {
+  body {
+    animation: none;
+  }
+} */

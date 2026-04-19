@@ -1,0 +1,63 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff;
+  padding: 2rem;
+  width: 95%;
+  max-width: 500px;
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.modal h2 {
+  font-size: 2rem;
+}
+
+.modal form {
+  margin-top: 1.5rem;
+}
+
+.close-btn {
+  float: right;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.modal input,
+.modal select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.status {
+  margin-bottom: 10px;
+  color: green;
+}
+
+.modal form button {
+  background: var(--green-color);
+  color: var(--milk-color);
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+}

@@ -1,0 +1,51 @@
+.about-page__section {
+  z-index: 99;
+}
+
+.about-page__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.ab-content__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ab-content__text h1 span {
+  color: var(--off-white-color);
+}
+
+.ab-us__section {
+  margin-top: 7rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-page__content {
+    gap: 1rem;
+  }
+  .what__small {
+    margin-top: 2rem;
+  }
+  .ab-content__text h1 {
+    font-size: 3rem;
+  }
+  .ab-content__text h1 span {
+    font-size: 2rem;
+  }
+  .ab-content__text p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  .about-page__content {
+    grid-template-columns: 1fr;
+  }
+}

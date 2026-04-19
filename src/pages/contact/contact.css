@@ -1,0 +1,120 @@
+.contant__section {
+  margin-top: 7rem;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact__content {
+  text-align: center;
+}
+
+.contact__cont {
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact__cont p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.contact__cont p svg {
+  color: var(--green-color);
+}
+
+.contact-container2 {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+  /* background: linear-gradient(to bottom, #f7fff5, #e6f5e6); */
+}
+
+.contact-form {
+  background: var(--green-color);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form h2 {
+  margin-bottom: 1rem;
+  color: var(--milk-color);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.1);
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #43a047;
+}
+
+.contact-form button:disabled {
+  background: #9e9e9e;
+  cursor: not-allowed;
+}
+
+/* Status Messages */
+.status {
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.status.success {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status.error {
+  background: #ffebee;
+  color: #c62828;
+}
+
+@media screen and (max-width: 780px) {
+  .contact-form {
+    background: var(--green-color);
+    padding: 0.5rem;
+  }
+}
