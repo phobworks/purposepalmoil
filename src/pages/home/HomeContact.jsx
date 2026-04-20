@@ -15,14 +15,17 @@ const HomeContact = () => {
           </p>
 
           <div className="what__btns">
-            <div className="explore__btn explore__btn2">
+            <a
+              href={`mailto:${email}?subject=Inquiry about Palm Oil&body=Hello, I would like to know more about your products.`}
+              className="explore__btn explore__btn2"
+            >
               <MdEmail />
-              <a href={`mailto:${email}?subject=Inquiry about Palm Oil&body=Hello, I would like to know more about your products.`}>Get a Quote</a>
-            </div>
-            <div className="get__btns get__btns2">
-              <FaPhoneAlt />
-              <a href={`tel:${phone}`}>Speak to Us Now</a>
-            </div>
+              <span>Get a Quote</span>
+            </a>
+            <a href={`tel:${phone}`} className="call-btn">
+              <FaPhoneAlt className="icon" />
+              <span>Speak to Us Now</span>
+            </a>
           </div>
         </div>
       </div>

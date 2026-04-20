@@ -279,9 +279,9 @@
 
 .get__btns button {
   font-size: 1rem;
-  background: transparent;
+  /* background: transparent; */
   color: var(--green-color);
-  background-color: var(--milk-color);
+  background: var(--milk-color);
   padding: 0.8rem 1rem;
   border-radius: 2rem;
   color: var(--green-color);
@@ -295,6 +295,41 @@
   background-color: var(--green-color);
   color: var(--milk-color);
 }
+
+.call-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  background: var(--milk-color);
+  color: var(--green-color);
+
+  padding: 0.7rem 1.2rem;
+  border-radius: 2rem;
+
+  text-decoration: none;
+  font-weight: 500;
+
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+/* Icon styling */
+.call-btn .icon {
+  font-size: 14px;
+}
+
+/* Hover effect */
+.call-btn:hover {
+  background: var(--green-color);
+  color: white;
+  /* transform: translateY(-2px); */
+}
+
+/* Click effect */
+/* .call-btn:active {
+  transform: scale(0.97);
+} */
 
 /* Home Services */
 .home-services__section {

@@ -30,8 +30,8 @@
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   /* overflow-x: hidden; */
   height: 100%;
 }
@@ -45,15 +45,26 @@ body {
   color: var(--gray-color);
   line-height: 1.7;
 
+  background: linear-gradient(to bottom, #d9ffda, #c1f1c0, #a9e2a6, #92d48c, #7bc571);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 🔥 important */
+}
+
+/* body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--gray-color);
+  line-height: 1.7;
+
   min-height: 100vh;
 
   background: linear-gradient(to bottom, #d9ffda, #c1f1c0, #a9e2a6, #92d48c, #7bc571);
 
   background-size: 100% 300%;
   animation: verticalFlow 10s ease infinite;
-}
+} */
 
-@keyframes verticalFlow {
+/* @keyframes verticalFlow {
   0% {
     background-position: 50% 0%;
   }
@@ -63,7 +74,7 @@ body {
   100% {
     background-position: 50% 0%;
   }
-}
+} */
 
 .container {
   width: var(--container-width-lg);
@@ -128,8 +139,31 @@ img {
   transform: scale(1.1);
 }
 
-/* @media (prefers-reduced-motion: reduce) {
-  body {
-    animation: none;
-  }
-} */
+@media screen and (max-width: 1024px) {
+  /* Animated background layer */
+  /* body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background: linear-gradient(-45deg, #d9ffda, #c1f1c0, #a9e2a6, #92d48c, #7bc571);
+
+    background-size: 300% 300%;
+    animation: gradientMove 15s ease infinite;
+
+    will-change: background-position;
+  } */
+
+  /* @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  } */
+}
