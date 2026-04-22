@@ -16,7 +16,7 @@ const HomeServices = () => {
             {/* <h3>Palm Oil Varieties</h3> */}
             <p>Highly unsaturated palm oil for stews and sauces — lighter and better for healthier cooking</p>
             <div className="home-services__btn">
-              <Link to="/Services">Read more</Link>
+              <Link to="/Products">Read more</Link>
             </div>
           </div>
           <div className="home-s__cards">
@@ -24,7 +24,7 @@ const HomeServices = () => {
             {/* <h3>Purpose Community Package</h3> */}
             <p>Palm oil for soups and porridges — richer and suited for traditional meals</p>
             <div className="home-services__btn">
-              <Link to="/Services">Read more</Link>
+              <Link to="/Products">Read more</Link>
             </div>
           </div>
           <div className="home-s__cards">
@@ -32,7 +32,7 @@ const HomeServices = () => {
             {/* <h3>Purpose Community Package</h3> */}
             <p>Access to fresh oil anytime you need it</p>
             <div className="home-services__btn">
-              <Link to="/Services">Read more</Link>
+              <Link to="/Products">Read more</Link>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ const HomeServices = () => {
               deserve. Perfect for tomato stew, pepper sauce, jollof base, and everyday sauces.
             </p>
             <div className="highly__btn">
-              <Link to="/Services">Read more</Link>
+              <Link to="/Products">Read more</Link>
             </div>
           </div>
           <div className="highly__img area-4">
@@ -79,7 +79,7 @@ const HomeServices = () => {
             </p>
 
             <div className="highly__btn">
-              <Link to="/Services">Read more</Link>
+              <Link to="/Products">Read more</Link>
             </div>
           </div>
           <div className="highly__img area-6">
