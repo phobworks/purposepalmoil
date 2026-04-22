@@ -199,15 +199,26 @@
   margin-top: 7rem;
 }
 
+.welcome__grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.welcome-note__img {
+  width: 400px;
+}
+
 .welcome__small {
-  justify-content: center;
+  /* justify-content: center; */
   display: flex;
   gap: 5px;
   align-items: center;
 }
 
 .welcome__content {
-  text-align: center;
 }
 
 /* What makes us differents */
@@ -524,6 +535,17 @@
   }
   .home__banner-content-2 {
     margin: 4rem auto;
+  }
+  .welcome__grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .welcome-note__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .what__content {
     grid-template-columns: 1fr;

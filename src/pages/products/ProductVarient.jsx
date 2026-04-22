@@ -1,7 +1,9 @@
 import p2 from '/images/p2.jpg';
 import p3 from '/images/p3.jpg';
+import { useModal } from '../../components/ModalContext';
 
 const ProductVarient = () => {
+  const { openModal } = useModal();
   return (
     <section className="pv__section">
       <div className="pv__container container">
@@ -45,6 +47,9 @@ const ProductVarient = () => {
                 <li>Energy: 887 kcal </li>
                 <li>Total fat: 99.3g</li>
               </ul>
+              <div className="get__btns order__btn">
+                <button onClick={openModal}>Order Now</button>
+              </div>
             </div>
           </div>
 
@@ -74,6 +79,9 @@ const ProductVarient = () => {
                 <li>Energy: 887 kcal </li>
                 <li>Total fat: 98.6g</li>
               </ul>
+              <div className="get__btns order__btn">
+                <button onClick={openModal}>Order Now</button>
+              </div>
             </div>
           </div>
         </div>

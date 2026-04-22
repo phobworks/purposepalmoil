@@ -16,7 +16,7 @@ const HomeBanner = () => {
         <div className="home__banner-section container">
           <div className="home__banner-content container">
             <small>Innovation in Every Drop</small>
-            <h1>Pure, Refined, Perfected</h1>
+            <h1>Pure, Natural, Perfected</h1>
             <h3>For Healthier Living</h3>
             <p>Proprietary purification system ensures superior quality palm oil for every meal.</p>
           </div>
