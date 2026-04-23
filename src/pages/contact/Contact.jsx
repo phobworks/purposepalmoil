@@ -12,7 +12,7 @@ const Contact = () => {
       <section className="contant__section">
         <div className="contact__container container">
           <div className="contact__content">
-            <div className="welcome__small">
+            <div className="welcome__small welcome__contact">
               <span></span>
               <small>Get in touch</small>
             </div>

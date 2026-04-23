@@ -13,6 +13,12 @@
   text-align: center;
 }
 
+.welcome__contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .contact__cont {
   margin: 2rem 0 0 0;
   display: flex;

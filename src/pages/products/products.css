@@ -75,6 +75,71 @@
   color: var(--milk-color);
 }
 
+/* news letter */
+.section__news {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.news__content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.news__input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.news__status {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+.news__buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Base button */
+.btn {
+  padding: 0.7rem 1.4rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Subscribe */
+.subscribe-btn {
+  background: var(--green-color);
+  color: white;
+}
+
+.subscribe-btn:hover {
+  background: #43a047;
+}
+
+/* Community */
+.community-btn {
+  background: var(--milk-color);
+  color: var(--green-color);
+  box-shadow: var(--box-shadow);
+}
+
+.community-btn:hover {
+  background: var(--green-color);
+  color: white;
+}
+
 @media screen and (max-width: 1024px) {
   .pv__card {
     grid-template-columns: 1fr;

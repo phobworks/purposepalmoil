@@ -53,8 +53,8 @@
 .text__cards {
   padding: 20px;
   border-radius: 12px;
-  background: var(--green-color);
-  color: var(--white-color);
+  background: var(--white-color);
+  color: var(--green-color);
   box-shadow: var(--box-shadow);
 }
 

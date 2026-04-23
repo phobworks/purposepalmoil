@@ -1,0 +1,62 @@
+.comm__banner {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.comm__banner h2 {
+  max-width: 800px;
+  text-align: center;
+}
+
+.comm__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.comm__card ul li {
+  margin-left: 2rem;
+  list-style-type: disc;
+}
+
+.join {
+  /* padding: 3rem 1rem; */
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.join__form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.join__form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.join__form button {
+  width: 100%;
+  padding: 12px;
+  background: var(--green-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .comm__content {
+    grid-template-columns: 1fr;
+  }
+}

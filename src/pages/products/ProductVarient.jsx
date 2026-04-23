@@ -8,10 +8,10 @@ const ProductVarient = () => {
     <section className="pv__section">
       <div className="pv__container container">
         <div className="pv__content">
-          <div className="welcome__small">
+          {/* <div className="welcome__small">
             <span></span>
             <small>Product showcase</small>
-          </div>
+          </div> */}
           <h2>See our premium palm oil variants</h2>
           <p>Refined for your kitchen. Two specialized formulations designed to enhance soups, porridges, stews, and sauces with consistent quality.</p>
         </div>
@@ -22,22 +22,24 @@ const ProductVarient = () => {
             </div>
             <div className="pv-card__content">
               <div className="pv-card__header">
-                <h3>STEW &amp; SAUCE </h3>
+                <h3>STEW &amp; SAUCE VARIETY</h3>
                 <small> - Highly Unsaturated - cholesterol free </small>
               </div>
               <p>PRODUCT DESCRIPTION</p>
-              <p>
-                A highly unsaturated palm oil crafted for healthier cooking. Carefully purified and naturally rich in antioxidants and essential nutrients, it
-                delivers the authentic natural taste of palm oil while supporting a more balanced fat intake.
-              </p>
+              <p>This is a Highly unsaturated palm oil variant, carefully separated for healthier cooking and a perfect texture for your stews and sauces.</p>
 
+              <p>Properly purified, it retains its natural richness while delivering a smoother, lighter cooking experience.</p>
               <p>
-                Enhances the natural color and flavor of your cooking while giving stews and sauces the smooth, rich flow and signature palm oil taste they
-                deserve.
+                It remains pure and unaltered , retaining its natural antioxidants, nutrients, color, and authentic taste, with no additives or unnecessary
+                processing.
               </p>
-              <p>Perfect for tomato stew, pepper sauce, jollof base, and everyday sauces.</p>
+              <p>
+                Designed specifically for stews and sauces, it enhances flavor, improves texture, and delivers a smooth, rich flow with the signature depth palm
+                oil is known for.
+              </p>
+              <p>Perfect for tomato stew, pepper sauce, jollof base, and everyday cooking.</p>
               <ul>
-                <li>Ingredients: Palm oil. </li>
+                <li>Ingredients: Palm oil (palm olein) </li>
                 <li>Nutritional facts </li>
                 <li>Palm olein </li>
                 <li>Trans Fat: 0g </li>
@@ -68,9 +70,9 @@ const ProductVarient = () => {
                 for soups and slow-cooked meals.
               </p>
               <p>Adds thickness, depth of flavor, and strong seasoning infusion, giving soups and porridges a fuller taste and satisfying body.</p>
-              <p>Perfect for egusi, ogbono, Abacha, afang, yam porridge, and </p>
+              <p>Perfect for egusi, ogbono, Abacha, afang, yam porridge</p>
               <ul>
-                <li>Ingredients: Palm oil </li>
+                <li>Ingredients: Palm oil(palm stearin) </li>
                 <li>Palm Stearin </li>
                 <li>Trans Fat: 0g </li>
                 <li>Saturated fat: 61.90g </li>

@@ -13,6 +13,7 @@ import ScrollToTop from './components/ScrollToTop';
 import BackToTop from './components/BackToTop';
 import WhatsAppButton from './components/WhatsAppButton';
 import { ModalProvider } from './components/ModalContext';
+import JoinCommunity from './pages/community/JoinCommunity';
 
 function App() {
   // const [showModal, setShowModal] = useState(false);
@@ -28,7 +29,7 @@ function App() {
           {/* <Route path="/services" element={<Services />} /> */}
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/joincommunity" element={<JoinCommunity />} />
         </Routes>
         <BackToTop />
         <WhatsAppButton />

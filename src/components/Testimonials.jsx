@@ -1,5 +1,5 @@
 import './testimonial.css';
-
+import { FaQuoteRight } from 'react-icons/fa';
 import { useState, useEffect, useRef } from 'react';
 import { testimonials } from '../data';
 
@@ -128,6 +128,9 @@ const Testimonials = () => {
 
             return (
               <div className={`text__cards ${isCenter ? 'active-card' : 'side-card'}`} key={item.id}>
+                <i>
+                  <FaQuoteRight />
+                </i>
                 <p>{item.custest}</p>
                 <small>{item.cusname}</small>
               </div>

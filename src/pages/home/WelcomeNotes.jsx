@@ -12,7 +12,7 @@ const WelcomeNotes = () => {
           <div className="welcome__content">
             <p>Hi, I'm Alaba.</p>
             <p>
-              If you're here, it means one thing - you definitely care about what goes into your food. Purpose Palm Oil was borne out of a simple realization:
+              If you're here, it means one thing - you definitely care about what goes into your food. Purpose Palm Oil was born out of a simple realization:
             </p>
             <p>palm oil is used every day, but very few persons like you care about the quality of what is bought. </p>
             <p>To ensure health safety for all, the number of persons in this category has to increase, hence the birth of Purpose Palm Oil. </p>

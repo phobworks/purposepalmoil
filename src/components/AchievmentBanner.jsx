@@ -6,7 +6,7 @@ import { FaUser } from 'react-icons/fa';
 const items = [
   { icon: <FaBottleWater />, value: '1M+', label: 'BOTTLES SOLD' },
   { icon: <FaPeopleGroup />, value: '3000 - 5000+', label: 'CONSUMERS REACHED' },
-  { icon: <MdLocationOn />, value: 'MAJOR DISTRIBUTION', label: 'WORLD WIDE' },
+  { icon: <MdLocationOn />, value: 'MAJOR DISTRIBUTION OUTLET', label: 'PORT HARCOURT & LAGOS' },
   // { icon: <FaHandshakeSimple />, value: '5 ROI', label: 'INVESTORS' },
 ];
 
